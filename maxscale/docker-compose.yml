@@ -25,11 +25,10 @@ services:
         depends_on:
             - master1
             - master2
-
         volumes:
             - ./maxscale.cnf.d:/etc/maxscale.cnf.d
         ports:
-	    - "4000:4000" # shard listener port
+            - "4000:4000" # shard listener port
             - "4006:4006"  # readwrite port
             - "4008:4008"  # readonly port
             - "8989:8989"  # REST API port
