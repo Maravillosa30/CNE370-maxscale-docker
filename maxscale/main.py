@@ -11,11 +11,13 @@ conn = mysql.connector.connect(user = "maxuser", password= "maxpwd", host = "127
 
 cursor = conn.cursor()
 
+# Query 1: The largest zipcode in zipcodes_one
 cursor.execute("SELECT * FROM zipcodes_one.zipcodes_one")
 largest_zipcode = cursor.fetchall()
 for zipcode in largest_zipcode:
         print("The largest zipcode in zipcodes_one:", largest_zipcode)
         break
+        
 # Query 2: All zipcodes where state=KY (Kentucky)
 cursor.execute("SELECT * FROM zipcodes_one.zipcodes_one  WHERE state='KY'")
 ky_zipcodes = cursor.fetchall()
