@@ -81,17 +81,17 @@ after that edit and save the docker-compose.yml file with this command:
 
 6. Run docker-compose following this command:
 
-` 
+``` 
 $ sudo docker-compose up -d
-`
+```
 
 the container should be running some server
 
 This command will allow to see a better formated table for your server:
 
-`
+```
 $ docker-compose exec maxscale maxctrl list servers
-`
+```
 
 
  
