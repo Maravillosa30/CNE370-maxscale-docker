@@ -47,22 +47,27 @@ $ pip3 install mysql-connector
 ```
 
 ## Running 
+
 To run MaxScale with Docker Compose, follow these steps:
 
 1. Forked the repository as instructed in github.
-2. Make a directory  of you choosing with this commands: 
+2. Make a directory  of you choosing with this commands
+
    ```
    mkdir [directory name ] example: mkdir final_370
+   
    ```
 then change directory 
   ``
   cd final_370 
-  ```
+  ``
+
 3. clone the forked repository in the command line inside the expample directory by entering
  
 ```
-git clone https://github.com/Maravillosa30/CNE370-maxscale-docker/
+$ git clone https://github.com/Maravillosa30/CNE370-maxscale-docker/
 ```
+
 4.  Navigate to CNE370-maxscale directory and open maxcale.
 5. while inside maxscale, open the maxscale.cnf.d folder and edit and save  the example.cnf file with this command:
   ```
