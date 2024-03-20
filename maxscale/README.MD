@@ -76,12 +76,14 @@ $ sudo nano docker-compose
 ```
 sudo docker-compose up -d
 ```
-the container should be running some servers.
 
+the container should be running some servers.
 This command will allow to see a better formated table for your servers.
+
 ```
 docker-compose exec maxscale maxctrl list servers
+
 ```
 
-a list like this one will show. 
+ 
 
