@@ -43,7 +43,7 @@ $ sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 ### Install mysql.connector
 to run the sql file in maxscale you will need to install mysql.connecter
 ```
-pip3 install mysql-connector
+$ pip3 install mysql-connector
 ```
 
 ## Running 
@@ -58,7 +58,7 @@ then change directory
 ``
 cd final_370 
 ```
-3. clone the forked repository in the command line inside the expample directory by entering:
+3. clone the forked repository in the command line inside the expample directory by entering
  
 ```
 git clone https://github.com/Maravillosa30/CNE370-maxscale-docker/
