@@ -84,10 +84,9 @@ the container should be running some server
 
 This command will allow to see a better formated table for your server:
 
-
 ```
 docker-compose exec maxscale maxctrl list servers
-```
+
 
  
 
