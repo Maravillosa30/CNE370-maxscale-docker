@@ -76,9 +76,9 @@ $ sudo nano docker-compose
 
 6. Run docker-compose following this command:
 
-``` 
+` 
 $ sudo docker-compose up -d
-```
+`
 
 the container should be running some server
 
