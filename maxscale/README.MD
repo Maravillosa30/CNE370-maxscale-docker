@@ -82,5 +82,6 @@ This command will allow to see a better formated table for your servers.
 ```
 docker-compose exec maxscale maxctrl list servers
 ```
+
 a list like this one will show. 
 
