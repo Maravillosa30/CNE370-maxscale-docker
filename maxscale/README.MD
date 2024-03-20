@@ -68,21 +68,23 @@ git clone https://github.com/Maravillosa30/CNE370-maxscale-docker/
 ```
 $ sudo nano example.cnf
 ```
+
 after that edit and save the docker-compose.yml file with this command:
 ```
 $ sudo nano docker-compose
 ```
+
 6. Run docker-compose following this command:
+
 ```
-sudo docker-compose up -d
+   sudo docker-compose up -d
 ```
 
 the container should be running some servers.
 This command will allow to see a better formated table for your servers.
 
 ```
-docker-compose exec maxscale maxctrl list servers
-
+   docker-compose exec maxscale maxctrl list servers
 ```
 
  
