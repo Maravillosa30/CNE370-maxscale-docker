@@ -55,9 +55,9 @@ To run MaxScale with Docker Compose, follow these steps:
    mkdir [directory name ] example: mkdir final_370
    ```
 then change directory 
-``
-cd final_370 
-```
+  ``
+  cd final_370 
+  ```
 3. clone the forked repository in the command line inside the expample directory by entering
  
 ```
@@ -65,14 +65,14 @@ git clone https://github.com/Maravillosa30/CNE370-maxscale-docker/
 ```
 4.  Navigate to CNE370-maxscale directory and open maxcale.
 5. while inside maxscale, open the maxscale.cnf.d folder and edit and save  the example.cnf file with this command:
-```
-$ sudo nano example.cnf
-```
+  ```
+  $ sudo nano example.cnf
+  ```
 
 after that edit and save the docker-compose.yml file with this command:
-```
-$ sudo nano docker-compose
-```
+  ```
+  $ sudo nano docker-compose
+  ```
 
 6. Run docker-compose following this command:
 
