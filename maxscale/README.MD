@@ -97,5 +97,10 @@ A list of servers will shows such as this one
 ![alt text](https://github.com/Maravillosa30/CNE370-maxscale-docker/blob/master/Serversimage.png)
 
 
+
+
+
+
+
  
 
