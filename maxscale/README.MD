@@ -73,6 +73,7 @@ $ git clone https://github.com/Maravillosa30/CNE370-maxscale-docker/
 ```
 
 4.  Navigate to CNE370-maxscale directory and open maxcale.
+
 5. while inside maxscale, open the maxscale.cnf.d folder and edit and save  the example.cnf file with this command:
   ```
   $ sudo nano example.cnf
