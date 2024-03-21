@@ -16,11 +16,15 @@ for a succesfful `installation` use the steps on this link:
 ### Docker-Compose
 Install a were version of Docker-compose follo this link:
 [https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-20-04-quickstart]
-During the tutorial use this command  to update to the newest version of docker-compose:
+
+During the tutorial use this command  to update to the newest version of docker-compose instead of the shwon in the tutorial:
 
 ```
  $ sudo curl -L "https://github.com/docker/compose/releases/download/v2.24.7/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
+Follow the rest of the tutorial to complete the installation. 
+
+
 ### Python install:
 Use this commands to install python3 that will be used to run the .py file in file inside maxscale.
 ```
