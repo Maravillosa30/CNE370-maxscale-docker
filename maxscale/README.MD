@@ -93,6 +93,9 @@ This command will allow to see a better formated table for your server:
 $ docker-compose exec maxscale maxctrl list servers
 ```
 
+A list of servers will shows such as this one 
+![alt text](https://github.com/Maravillosa30/CNE370-maxscale-docker/blob/master/Serversimage.png)
+
 
  
 
